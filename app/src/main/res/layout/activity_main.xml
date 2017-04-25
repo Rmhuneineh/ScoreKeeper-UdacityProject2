@@ -13,7 +13,7 @@
         android:layout_centerHorizontal="true"
         android:background="#03A9F4"
         android:onClick="resetAll"
-        android:text="reset"
+        android:text="@string/reset"
         android:layout_marginBottom="8dp"/>
 
     <LinearLayout
@@ -36,7 +36,7 @@
                 android:layout_margin="16dp"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
-                android:text="Home Team"
+                android:text="@string/home_team"
                 android:textSize="16sp" />
 
             <TextView
@@ -46,7 +46,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:fontFamily="sans-serif-light"
-                android:text="0"
+                android:text="@string/zero"
                 android:textSize="56sp" />
 
             <Button
@@ -55,7 +55,7 @@
                 android:layout_margin="8dp"
                 android:background="#03A9F4"
                 android:onClick="addOneToHome"
-                android:text="Goal!"
+                android:text="@string/goal"
                 android:textSize="24sp" />
 
             <RelativeLayout
@@ -92,7 +92,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="YELLOW CARDS: 0"
+                    android:text="@string/yellow"
                     android:textSize="14sp" />
 
                 <Button
@@ -115,7 +115,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="RED CARDS: 0"
+                    android:text="@string/red"
                     android:textSize="14sp" />
 
                 <Button
@@ -138,7 +138,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="CORNERS: 0"
+                    android:text="@string/corner"
                     android:textSize="14sp" />
 
                 <Button
@@ -172,7 +172,7 @@
                 android:layout_margin="16dp"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
-                android:text="Away Team"
+                android:text="@string/away_team"
                 android:textSize="16sp" />
 
             <TextView
@@ -182,7 +182,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:fontFamily="sans-serif-light"
-                android:text="0"
+                android:text="@string/zero"
                 android:textSize="56sp" />
 
             <Button
@@ -191,7 +191,7 @@
                 android:layout_margin="8dp"
                 android:background="#03A9F4"
                 android:onClick="addOneToAway"
-                android:text="Goal!"
+                android:text="@string/goal"
                 android:textSize="24sp" />
 
             <RelativeLayout
@@ -204,7 +204,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="FOULS: 0"
+                    android:text="@string/foul"
                     android:textSize="14sp" />
 
                 <Button
@@ -229,7 +229,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="YELLOW CARDS: 0"
+                    android:text="@string/yellow"
                     android:textSize="14sp" />
 
                 <Button
@@ -253,7 +253,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="RED CARDS: 0"
+                    android:text="@string/red"
                     android:textSize="14sp" />
 
                 <Button
@@ -276,7 +276,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="CORNERS: 0"
+                    android:text="@string/corner"
                     android:textSize="14sp" />
 
                 <Button
