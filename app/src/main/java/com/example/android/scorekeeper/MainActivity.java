@@ -7,13 +7,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int homeScore = 0, homeFoul = 0, homeYellow = 0, homeRed = 0, homeCorner = 0;
-    int awayScore = 0, awayFoul = 0, awayYellow = 0, awayRed = 0, awayCorner = 0;
+    private int homeScore = 0, homeFoul = 0, homeYellow = 0, homeRed = 0, homeCorner = 0;
+    private int awayScore = 0, awayFoul = 0, awayYellow = 0, awayRed = 0, awayCorner = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void addOneToHome(View view) {
